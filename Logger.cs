@@ -9,7 +9,7 @@ public static class Logger
 {
     private const string FILE_EXTENSION = ".txt";
     private const string LOG_FORMAT = "[{0}] {1}";
-    private const string TIME_FORMAT = "hh:mm:ss";
+    private const string TIME_FORMAT = "HH:mm:ss";
     private static readonly string LOGS_FOLDER_PATH = Path.Combine(Application.dataPath, "Logs");
 
     /// <summary>
